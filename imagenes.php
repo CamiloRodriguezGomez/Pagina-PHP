@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Amilcar Gómez">
-    <meta name="description" content="Pagina Demo de Estudio con PHP">
-</head>
-<title>Pagina Imagenes PHP</title>
+<?php require_once 'head.php'; ?>
 <body>
 <main>
         <div>
@@ -33,13 +26,6 @@
             <cite>Referencia web <a href="https://seeklogo.com/images/P/php-logo-ADE513E748-seeklogo.com.png" target="_blank" >Imagen 2</a></cite>
         </div><br>
     </header>
-    <footer>
-        <div>
-            <address>
-                Autor: Amilcar Gómez
-                Corrreo <a href="mailto:amilcar@compuestudio.edu.co">amilcar@compuestudio.edu.co</a>
-            </address>
-        </div>
-</footer>
+    <?php require_once 'footer.php'; ?>
 </body>
 </html>
